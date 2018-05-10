@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+.post-date {
+  color: #919191;
+  font-size: 0.8em;
+  margin-bottom: 5px; }
+
+h1, h2 {
+  font-family: "Lora", serif;
+  margin-bottom: 10px; }
+
+header {
+  padding: 30px 20px;
+  background-color: #6495ED;
+  color: #FAEBD7;
+  text-align: right;
+  height: 100%; }
+
+header ul li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 0.8em; }
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 25px; }
+
+main {
+  background-color: #FAEBD7;
+  padding: 5px;
+  min-height: 100vh; }
+
+hr {
+  margin: 16px 0 10px 0; }
+
+img {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  width: 70%; }
+
+article {
+  padding: 30px 25px 35px 25px;
+  margin: 20px 10px;
+  background: white;
+  -webkit-box-shadow: 1px 1px #dbdbdb;
+  box-shadow: 2px 2px 2px 2px #ccc; }
+
+article p {
+  font-size: 0.8em; }
+
+/* - - - - - - - - - - LINKS... - - - - - - - - - - */
+/*LINK STYLES BY DEFAULT*/
+a {
+  color: #6495ED;
+  text-decoration: none; }
+  a:visited {
+    color: #6495ED;
+    text-decoration: none; }
+  a:active {
+    color: #DEB887; }
+  a:hover {
+    text-decoration: underline; }
+
+/*NAV LINKS*/
+header a {
+  color: #FAEBD7;
+  text-decoration: none; }
+  header a:visted {
+    color: #FAEBD7;
+    text-decoration: none; }
+  header a:active {
+    color: #DEB887; }
+  header a:hover {
+    color: white;
+    text-decoration: none; }
+
+/*ARTICLE HEADINGS*/
+article h2 a:visited, article h2 a a {
+  color: black;
+  text-decoration: none; }
+article h2 a:active {
+  color: #DEB887; }
+article h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline; }
+
+/* - - - - - - - - - - ...LINKS - - - - - - - - - - */
+/*500 px or more*/
+@media screen and (min-width: 500px) {
+  div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  header {
+    position: fixed;
+    padding: 30px 35px;
+    width: 30%; }
+
+  main {
+    padding: 40px;
+    margin-left: 30%;
+    width: 70%; }
+
+  article {
+    margin-bottom: 40px; } }
+/*700 px or more*/
+@media screen and (min-width: 700px) {
+  header {
+    width: 210px; }
+
+  main {
+    padding: 40px;
+    margin-left: 210px;
+    width: calc(100% - 210px); }
+
+  img {
+    width: 50%; } }
+/*1000 px or more*/
+@media screen and (min-width: 1000px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  article {
+    width: 50%; } }
+
+/*# sourceMappingURL=styles.css.map */
